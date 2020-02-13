@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="18" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-07T16:41:32 IST" name="Suite" finished-at="2020-02-07T16:45:01 IST" duration-ms="209208">
+    <groups>
+    </groups>
+    <test started-at="2020-02-07T16:41:32 IST" name="Validating User login" finished-at="2020-02-07T16:41:55 IST" duration-ms="22644">
+      <class name="AllTests.LoginTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AllTests.LoginTest@19bb07ed]" started-at="2020-02-07T16:41:32 IST" name="initialize" finished-at="2020-02-07T16:41:37 IST" duration-ms="5373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.LoginTest@19bb07ed]" started-at="2020-02-07T16:41:39 IST" name="openBrowser" finished-at="2020-02-07T16:41:46 IST" duration-ms="7330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateLoginField(java.lang.String, java.lang.String)[pri:1, instance:AllTests.LoginTest@19bb07ed]" started-at="2020-02-07T16:41:46 IST" name="validateLoginField" data-provider="inputdata" finished-at="2020-02-07T16:41:46 IST" duration-ms="13" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at AllTests.LoginTest.validateLoginField(LoginTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginField -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.LoginTest@19bb07ed]" started-at="2020-02-07T16:41:46 IST" name="openBrowser" finished-at="2020-02-07T16:41:47 IST" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateLoginField(java.lang.String, java.lang.String)[pri:1, instance:AllTests.LoginTest@19bb07ed]" started-at="2020-02-07T16:41:47 IST" name="validateLoginField" data-provider="inputdata" finished-at="2020-02-07T16:41:48 IST" duration-ms="877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginField -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.LoginTest@19bb07ed]" started-at="2020-02-07T16:41:48 IST" name="openBrowser" finished-at="2020-02-07T16:41:49 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateLoginField(java.lang.String, java.lang.String)[pri:1, instance:AllTests.LoginTest@19bb07ed]" started-at="2020-02-07T16:41:49 IST" name="validateLoginField" data-provider="inputdata" finished-at="2020-02-07T16:41:52 IST" duration-ms="3160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid.email@gmail.con]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginField -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.LoginTest@19bb07ed]" started-at="2020-02-07T16:41:52 IST" name="openBrowser" finished-at="2020-02-07T16:41:53 IST" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateLoginField(java.lang.String, java.lang.String)[pri:1, instance:AllTests.LoginTest@19bb07ed]" started-at="2020-02-07T16:41:53 IST" name="validateLoginField" data-provider="inputdata" finished-at="2020-02-07T16:41:54 IST" duration-ms="1222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john.smith@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginField -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AllTests.LoginTest@19bb07ed]" started-at="2020-02-07T16:41:54 IST" name="teardown" finished-at="2020-02-07T16:41:55 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AllTests.LoginTest -->
+    </test> <!-- Validating User login -->
+    <test started-at="2020-02-07T16:41:55 IST" name="Validating landing page" finished-at="2020-02-07T16:42:49 IST" duration-ms="54432">
+      <class name="AllTests.LandingLoginPageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AllTests.LandingLoginPageTest@28eaa59a]" started-at="2020-02-07T16:41:55 IST" name="initialize" finished-at="2020-02-07T16:41:58 IST" duration-ms="3528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.LandingLoginPageTest@28eaa59a]" started-at="2020-02-07T16:41:58 IST" name="openBrowser" finished-at="2020-02-07T16:42:03 IST" duration-ms="4582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateTitleofLandingPage()[pri:1, instance:AllTests.LandingLoginPageTest@28eaa59a]" started-at="2020-02-07T16:42:03 IST" name="validateTitleofLandingPage" finished-at="2020-02-07T16:42:03 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleofLandingPage -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.LandingLoginPageTest@28eaa59a]" started-at="2020-02-07T16:42:03 IST" name="openBrowser" finished-at="2020-02-07T16:42:04 IST" duration-ms="1450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyElementsOfLandingPage()[pri:2, instance:AllTests.LandingLoginPageTest@28eaa59a]" started-at="2020-02-07T16:42:04 IST" name="verifyElementsOfLandingPage" finished-at="2020-02-07T16:42:04 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsOfLandingPage -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.LandingLoginPageTest@28eaa59a]" started-at="2020-02-07T16:42:04 IST" name="openBrowser" finished-at="2020-02-07T16:42:05 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyRedirectedContactUsPage()[pri:3, instance:AllTests.LandingLoginPageTest@28eaa59a]" started-at="2020-02-07T16:42:05 IST" name="verifyRedirectedContactUsPage" finished-at="2020-02-07T16:42:12 IST" duration-ms="6513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRedirectedContactUsPage -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.LandingLoginPageTest@28eaa59a]" started-at="2020-02-07T16:42:12 IST" name="openBrowser" finished-at="2020-02-07T16:42:12 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyRedirectedWebservicePage()[pri:4, instance:AllTests.LandingLoginPageTest@28eaa59a]" started-at="2020-02-07T16:42:12 IST" name="verifyRedirectedWebservicePage" finished-at="2020-02-07T16:42:13 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRedirectedWebservicePage -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.LandingLoginPageTest@28eaa59a]" started-at="2020-02-07T16:42:13 IST" name="openBrowser" finished-at="2020-02-07T16:42:13 IST" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="signedUpRedirectedPage()[pri:5, instance:AllTests.LandingLoginPageTest@28eaa59a]" started-at="2020-02-07T16:42:13 IST" name="signedUpRedirectedPage" finished-at="2020-02-07T16:42:49 IST" duration-ms="35658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signedUpRedirectedPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AllTests.LandingLoginPageTest@28eaa59a]" started-at="2020-02-07T16:42:49 IST" name="teardown" finished-at="2020-02-07T16:42:49 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AllTests.LandingLoginPageTest -->
+    </test> <!-- Validating landing page -->
+    <test started-at="2020-02-07T16:42:49 IST" name="validating signedup page" finished-at="2020-02-07T16:45:01 IST" duration-ms="131969">
+      <class name="AllTests.SignedUpTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:42:49 IST" name="initialize" finished-at="2020-02-07T16:42:53 IST" duration-ms="3410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:42:53 IST" name="openBrowser" finished-at="2020-02-07T16:42:57 IST" duration-ms="4717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateTitleofSignedUpPage()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:42:57 IST" name="validateTitleofSignedUpPage" finished-at="2020-02-07T16:43:24 IST" duration-ms="26691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleofSignedUpPage -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:43:24 IST" name="openBrowser" finished-at="2020-02-07T16:43:33 IST" duration-ms="9184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateToAllFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:43:33 IST" name="validateToAllFields" data-provider="testdata" finished-at="2020-02-07T16:43:35 IST" duration-ms="2219" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at AllTests.SignedUpTest.validateToAllFields(SignedUpTest.java:113)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateToAllFields -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:43:35 IST" name="openBrowser" finished-at="2020-02-07T16:43:36 IST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateToAllFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:43:36 IST" name="validateToAllFields" data-provider="testdata" finished-at="2020-02-07T16:43:41 IST" duration-ms="4564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[   ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L name1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jannatul1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2nd Flour]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[city1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateToAllFields -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:43:41 IST" name="openBrowser" finished-at="2020-02-07T16:43:42 IST" duration-ms="1658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateToAllFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:43:42 IST" name="validateToAllFields" data-provider="testdata" finished-at="2020-02-07T16:43:46 IST" duration-ms="3534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[F name2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jannatul2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3rd Flour]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[city2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateToAllFields -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:43:46 IST" name="openBrowser" finished-at="2020-02-07T16:43:47 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateToAllFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:43:47 IST" name="validateToAllFields" data-provider="testdata" finished-at="2020-02-07T16:43:50 IST" duration-ms="3447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[F name3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L name3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4th Flour]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[city3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateToAllFields -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:43:50 IST" name="openBrowser" finished-at="2020-02-07T16:43:51 IST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateToAllFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:43:51 IST" name="validateToAllFields" data-provider="testdata" finished-at="2020-02-07T16:43:55 IST" duration-ms="4284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[F name4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L name4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jannatul4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[city4]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateToAllFields -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:43:55 IST" name="openBrowser" finished-at="2020-02-07T16:43:56 IST" duration-ms="1140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateToAllFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:43:56 IST" name="validateToAllFields" data-provider="testdata" finished-at="2020-02-07T16:44:00 IST" duration-ms="3647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[F name5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L name5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jannatul5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6th Flour]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateToAllFields -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:44:00 IST" name="openBrowser" finished-at="2020-02-07T16:44:00 IST" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateToAllFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:44:00 IST" name="validateToAllFields" data-provider="testdata" finished-at="2020-02-07T16:44:04 IST" duration-ms="3150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[F name6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L name6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jannatul6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7th Flour]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[city6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[None]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateToAllFields -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:44:04 IST" name="openBrowser" finished-at="2020-02-07T16:44:04 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateToAllFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:44:04 IST" name="validateToAllFields" data-provider="testdata" finished-at="2020-02-07T16:44:07 IST" duration-ms="2625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[F name7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L name7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jannatul7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8th Flour]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[city7]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateToAllFields -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:44:07 IST" name="openBrowser" finished-at="2020-02-07T16:44:08 IST" duration-ms="1082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateToAllFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:44:08 IST" name="validateToAllFields" data-provider="testdata" finished-at="2020-02-07T16:44:11 IST" duration-ms="3107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[F name8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L name8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jannatul8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9th Flour]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[city8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12356]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateToAllFields -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:44:11 IST" name="openBrowser" finished-at="2020-02-07T16:44:11 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateToAllFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:44:11 IST" name="validateToAllFields" data-provider="testdata" finished-at="2020-02-07T16:44:15 IST" duration-ms="3332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jannatul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ferdousi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jannatul9@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11th Flour]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[city10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateToAllFields -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:44:15 IST" name="openBrowser" finished-at="2020-02-07T16:44:15 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateToAllFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:44:15 IST" name="validateToAllFields" data-provider="testdata" finished-at="2020-02-07T16:44:32 IST" duration-ms="16453" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jannatul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ferdousi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jannatul.janafer@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12th Flour]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[city11]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#signup\:continue"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BM42806Q2', ip: '10.168.125.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\703177~1.IND\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54761}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e68293aafcae034ac40188a51841c050
+*** Element info: {Using=id, value=signup:continue}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#signup\:continue"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BM42806Q2', ip: '10.168.125.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\703177~1.IND\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54761}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e68293aafcae034ac40188a51841c050
+*** Element info: {Using=id, value=signup:continue}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at PageObjects.SignedUpPage.getContinue(SignedUpPage.java:79)
+at AllTests.SignedUpTest.emailAlreadyRegisteredValidation(SignedUpTest.java:265)
+at AllTests.SignedUpTest.allvalidation(SignedUpTest.java:248)
+at AllTests.SignedUpTest.validateToAllFields(SignedUpTest.java:200)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateToAllFields -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:44:32 IST" name="openBrowser" finished-at="2020-02-07T16:44:32 IST" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateToAllFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:44:32 IST" name="validateToAllFields" data-provider="testdata" finished-at="2020-02-07T16:44:49 IST" duration-ms="17374" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jannatul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ferdousi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ja.jj6@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[13th Flour]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[city12]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="signup"]/fieldset/div[4]/span"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BM42806Q2', ip: '10.168.125.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\703177~1.IND\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54761}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e68293aafcae034ac40188a51841c050
+*** Element info: {Using=xpath, value=//*[@id="signup"]/fieldset/div[4]/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="signup"]/fieldset/div[4]/span"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BM42806Q2', ip: '10.168.125.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\703177~1.IND\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54761}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e68293aafcae034ac40188a51841c050
+*** Element info: {Using=xpath, value=//*[@id="signup"]/fieldset/div[4]/span}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at PageObjects.SignedUpPage.getEmailAddressRequred(SignedUpPage.java:42)
+at AllTests.SignedUpTest.allvalidation(SignedUpTest.java:247)
+at AllTests.SignedUpTest.validateToAllFields(SignedUpTest.java:200)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateToAllFields -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:44:49 IST" name="openBrowser" finished-at="2020-02-07T16:44:51 IST" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyAllSpecifiedFieldsOnSignedUpPage()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:44:51 IST" name="verifyAllSpecifiedFieldsOnSignedUpPage" finished-at="2020-02-07T16:45:01 IST" duration-ms="10047" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#login\-form\:signup"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BM42806Q2', ip: '10.168.125.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\703177~1.IND\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54761}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e68293aafcae034ac40188a51841c050
+*** Element info: {Using=id, value=login-form:signup}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#login\-form\:signup"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BM42806Q2', ip: '10.168.125.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\703177~1.IND\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54761}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e68293aafcae034ac40188a51841c050
+*** Element info: {Using=id, value=login-form:signup}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at PageObjects.LandingOrLoginPage.getSignup(LandingOrLoginPage.java:76)
+at AllTests.SignedUpTest.verifyAllSpecifiedFieldsOnSignedUpPage(SignedUpTest.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllSpecifiedFieldsOnSignedUpPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AllTests.SignedUpTest@7193666c]" started-at="2020-02-07T16:45:01 IST" name="teardown" finished-at="2020-02-07T16:45:01 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AllTests.SignedUpTest -->
+    </test> <!-- validating signedup page -->
+  </suite> <!-- Suite -->
+</testng-results>

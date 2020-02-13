@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+	<!-- Suite -->
+
+
+	<listeners>
+
+		<listener class-name="AllTests.listeners" />
+
+		<listener class-name="resources.ExtentReporterNG" />
+
+	</listeners>
+
+
+	<test name="Validating User login">
+
+
+		<classes>
+
+			<class name="AllTests.LoginTest" />
+
+		</classes>
+
+	</test>
+
+
+	<test name="Validating landing page">
+
+
+		<classes>
+
+			<class name="AllTests.LandingLoginPageTest">
+			
+	
+			</class> 
+
+		</classes>
+
+	</test>
+
+
+	<test name="validating signedup page">
+
+
+
+		<classes>
+
+			<class name="AllTests.SignedUpTest">
+				
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+
+
+	<!-- Test -->
+
+
+</suite>
